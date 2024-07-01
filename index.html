@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - [Votre Nom]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Publications de [Votre Nom]</h1>
+    </header>
+    <main>
+        <section id="publications">
+            <h2>Liste des Publications</h2>
+            <ul>
+                <!-- Les publications seront ajoutées ici -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Votre Nom]</p>
+    </footer>
+</body>
+</html>
+Étape 3 : Ajoutez vos publications
+Liste des publications : Remplissez la section <ul> avec vos publications. Par exemple :
+html
+Copier le code
+<ul>
+    <li>
+        <strong>Titre de la publication 1</strong><br>
+        Auteurs : Auteur1, Auteur2, Auteur3<br>
+        Journal/Conférence, Année<br>
+        <a href="lien_vers_publication">Lien vers la publication</a>
+    </li>
+    <li>
+        <strong>Titre de la publication 2</strong><br>
+        Auteurs : Auteur1, Auteur2, Auteur3<br>
+        Journal/Conférence, Année<br>
+        <a href="lien_vers_publication">Lien vers la publication</a>
+    </li>
+    <!-- Ajoutez plus de publications ici -->
+</ul>
+Étape 4 : Créez un fichier CSS pour le style
+Créer le fichier CSS : Dans le même répertoire que votre fichier index.html, créez un fichier nommé styles.css.
+
+Ajoutez le style de base :
+
+css
+Copier le code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
